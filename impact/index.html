@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>Home | Jacob Elkins Portfolio</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/pe-icons.css" rel="stylesheet">
+    <link href="css/prettyPhoto.css" rel="stylesheet">
+    <link href="css/animate.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <script src="js/jquery.js"></script>
+    <!--[if lt IE 9]>
+    <script src="js/html5shiv.js"></script>
+    <script src="js/respond.min.js"></script>
+    <![endif]-->       
+    <link rel="shortcut icon" href="images/ico/favicon.ico">
+    <link rel="apple-touch-icon" sizes="144x144" href="images/ico/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="images/ico/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="images/ico/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" href="images/ico/apple-touch-icon-57x57.png">
+
+    <script type="text/javascript">
+    jQuery(document).ready(function($){
+	'use strict';
+      	jQuery('body').backstretch([
+	        "images/Downtown-Boston-BG.jpeg",
+	        "images/Downtown-Crossing.jpg",
+	        "images/Boston_bg.jpg"
+	    ], {duration: 5000, fade: 500, centeredY: true });
+
+		$("#mapwrapper").gMap({ controls: false,
+         	scrollwheel: false,
+         	markers: [{ 	
+              	latitude:42.3601,
+				longitude: -71.0589,
+          	icon: { image: "images/marker.png",
+              	iconsize: [44,44],
+          		iconanchor: [12,46],
+          		infowindowanchor: [12, 0] } }],
+          	icon: { 
+              	image: "images/marker.png", 
+             	iconsize: [26, 46],
+              	iconanchor: [12, 46],
+              	infowindowanchor: [12, 0] },
+         	latitude:42.3601,
+         	longitude: -71.0589,
+          	zoom: 14 });
+    });
+    </script>
+</head><!--/head-->
+<body>
+<div id="preloader"></div>
+    <header class="navbar navbar-inverse navbar-fixed-top " role="banner">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <i class="fa fa-bars"></i>
+                </button>
+                 <a class="navbar-brand" href="index.html"><h1><span class="pe-7s-gleam bounce-in"></span> Jacob Elkins</h1></a>
+            </div>
+            <div class="collapse navbar-collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="active"><a href="index.html">Home</a></li>
+                    <li><a href="about-me.html">About Me</a></li>
+                    <li><a href="experience.html">Experience</a></li>
+                    <li><a href="portfolio.html">Portfolio</a></li>
+                    <li><a href="contact.html">Contact</a></li> 
+                    <li><span class="search-trigger"><i class="fa fa-search"></i></span></li>
+                </ul>
+            </div>
+        </div>
+    </header><!--/header-->
+
+    <section id="main-slider" class="no-margin">
+        <div class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="item active">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <div class="carousel-content center centered">
+                                    <h2 class="boxed animation animated-item-1 fade-down">Jacob Elkins</h2><br>
+                                    <p class="boxed animation animated-item-2 fade-up">Aspiring front-end developer and UI/UX designer</p>
+                                    <br>
+                                    <a class="btn btn-md animation bounce-in" href="#services">Learn More</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div><!--/.item-->
+            </div><!--/.carousel-inner-->
+        </div><!--/.carousel-->
+    </section><!--/#main-slider-->
+
+    <div id="content-wrapper">
+        <section id="services" class="white">
+            <div class="container">
+            <div class="gap"></div> 
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="center gap fade-down section-heading">
+                            <h2 class="main-title">Fun Facts</h2>
+                            <hr>
+                            <p>“Only those who risk going too far can possibly find out how far they can go.” <br> <i>- T.S Elliot</i></p>
+                        </div>                
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-4 col-sm-6">
+                        <div class="service-block">
+                            <div class="pull-left bounce-in">
+                                <i class="fa fa-camera fa fa-md"></i>
+                            </div>
+                            <div class="media-body fade-up">
+                                <h3 class="media-heading">Certified Scuba Diver</h3>
+                                <p>Explored the under water world in Jamestown RI, navigated a shipwreck in Saint Thomas, and swam with parrot fish in Bermuda</p>
+                            </div>
+                        </div>
+                    </div><!--/.col-md-4-->
+                    <div class="col-md-4 col-sm-6">
+                        <div class="service-block">
+                            <div class="pull-left bounce-in">
+                                <i class="fa fa-thumbs-o-up fa fa-md"></i>
+                            </div>
+                            <div class="media-body fade-up">
+                                <h3 class="media-heading">Sky Diving</h3>
+                                <p>Fell 13,000 feet at 120 mph above the Quabbin reservoir in Western Massachusetts</p>
+                            </div>
+                        </div>
+                    </div><!--/.col-md-4-->
+                    <div class="col-md-4 col-sm-6">
+                        <div class="service-block">
+                            <div class="pull-left bounce-in">
+                                <i class="fa fa-ticket fa fa-md"></i>
+                            </div>
+                            <div class="media-body fade-up">
+                                <h3 class="media-heading">Boston Common Clean Up</h3>
+                                <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae.</p>
+                            </div>
+                        </div>
+                    </div><!--/.col-md-4-->
+                </div><!--/.row-->
+            
+                <div class="gap"></div>
+                <div class="row">
+                    <div class="col-md-4 col-sm-6">
+                        <div class="service-block">
+                            <div class="pull-left bounce-in">
+                                <i class="fa fa-star fa fa-md"></i>
+                            </div> 
+                            <div class="media-body fade-up">
+                                <h3 class="media-heading">Travel</h3>
+                                <p>Traveled to nine different islands in the Caribbean, been to nine different countries</p>
+                            </div>
+                        </div>
+                    </div><!--/.col-md-4-->
+                    <div class="col-md-4 col-sm-6">
+                        <div class="service-block">
+                            <div class="pull-left bounce-in">
+                                <i class="fa fa-cogs fa fa-md"></i>
+                            </div>
+                            <div class="media-body fade-up">
+                                <h3 class="media-heading">Artist</h3>
+                                <p>Talented painter, enjoy painting lighthouses and scenery</p>
+                            </div>
+                        </div>
+                    </div><!--/.col-md-4-->
+                </div><!--/.row-->
+            </div>
+            <div class="gap"></div>
+            <div class="container">
+
+        </section>
+
+
+		<section id="single-quote" class="divider-section"> 	            	        
+	            <div class="container">
+	            	<div class="gap"></div> 
+	                <div class="row">                        
+	                    <div class='col-md-offset-2 col-md-8 fade-up'>
+	                        <div class="carousel slide" data-ride="carousel" id="quote-carousel">
+	                            <div class="carousel-inner">
+	                                <div class="item active">
+	                                    <blockquote>
+	                                        <div class="row">
+	                                            <div class="col-sm-3 text-center">
+	                                                <img class="img-responsive" src="images/Albert.jpeg" style="width: 100px;height:100px;">
+	                                            </div>
+	                                            <div class="col-sm-9">
+	                                                <p>It has become appallingly obvious that our technology has exceeded our humanity.</p>
+	                                                <small>Albert Einstien</small>
+	                                            </div>
+	                                        </div>
+	                                    </blockquote>
+	                                </div>	                                
+	                            </div>                                     
+	                        </div> 
+	                    </div>
+	                </div>
+	      		</div>
+  		</section>
+
+        <section id="about-us" class="white">
+        	<div class="container">
+	            <div class="gap"></div>
+	            <div class="row">
+	                <div class="col-md-12">
+	                    <div class="center gap fade-down section-heading">
+	                        <h2 class="main-title">Recommendations</h2>
+                            <hr>
+                            <p align="center"><a href="PDF/ElkinsResumePDF.pdf" target="_blank"><b><big>RESUME</big></b></a></p>
+	                    </div>                
+	                </div>
+	            </div>
+	            
+               
+                <div class="row fade-up">
+                    <div class="col-md-6">
+                      	<div class="testimonial-list-item">
+                            <a href="PDF/DocRec2018.pdf" target="_blank">
+                        <img class="pull-left img-responsive quote-author-list" src="images/DocPic.png">
+                            <blockquote>
+                                <p>"He learns easily, never shying away from academic challenges"</p>
+                                <small>Ronald Krawitz <cite title="Source Title">Professor at Curry College</cite></small>
+                            </a>
+                            </blockquote>
+                        </div>
+                        <div class="testimonial-list-item">
+                            <a href="PDF/GordonRec2018.pdf" target="_blank">
+                        <img class="pull-left img-responsive quote-author-list" src="images/Gordon.png">
+                            <blockquote>
+                                <p>"He is an individual whom is naturally curious and interested in learning and understanding how things work and interrelate"</p>
+                                <small>Deanna Gordon <cite title="Source Title">Professor at Curry College</cite></small>
+                            </a>
+                            </blockquote>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="testimonial-list-item">
+                        <img class="pull-left img-responsive quote-author-list" src="images/Maryann.png">
+                            <blockquote>
+                                <p>"He took a leadership role for his team as they did research and preperation for a proposal and presentation to a client"</p>
+                                <small>Maryann Gallant <cite title="Source Title">Advisor at Curry College</cite></small>
+                            </blockquote>
+                        </div>
+                        <div class="testimonial-list-item">
+                        <img class="pull-left img-responsive quote-author-list" src="images/DocPic.png">
+                            <blockquote>
+                                <p>"He exhibited strength of character and integrity in his dealing with myself and with other students."</p>
+                                <small>Ronald Krawitz<cite title="Source Title">Professor at Curry College</cite></small>
+                            </blockquote>
+                        </div>
+                    </div>
+                </div>
+        </section>
+
+        <section id="stats" class="divider-section">
+            <div class="gap"></div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3 col-xs-6">
+                        <div class="center bounce-in">
+                            <span class="stat-icon"><span class="pe-7s-notebook bounce-in"></span></span>
+                            <h1><span class="counter">44</span></h1>
+                            <h3>CLASSES</h3>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-xs-6">
+                        <div class="center bounce-in">
+                            <span class="stat-icon"><span class="pe-7s-study bounce-in"></span></span>
+                            <h1><span class="counter">6</span></h1>
+                            <h3>HONORS</h3>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-xs-6">
+                        <div class="center bounce-in">
+                            <span class="stat-icon"><span class="pe-7s-study bounce-in"></span></span>
+                            <h1><span class="counter">93000</span></h1>
+                            <h3>Scholarship</h3>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-xs-6">
+                        <div class="center bounce-in">
+                            <span class="stat-icon"><span class="pe-7s-notebook bounce-in"></span></span>
+                            <h1><span class="counter">128</span></h1>
+                            <h3>CREDITS</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="gap"></div> 
+        </section>
+
+        
+       		 <div class="gap"></div> 
+       
+
+            <section id="testimonial-carousel" class="divider-section">
+	            <div class="container">
+	                <div class="row fade-down section-heading gap"> 
+                            <div class="center gap fade-down section-heading">
+                                    <h2 class="main-title">Tech News</h2>
+                                    <hr>
+                                </div>
+                <div class="row" align="center">
+                    <div class="col-md-6">
+                        <a class="twitter-timeline" height="500px" width="400px" data-theme="dark" data-link-color="#9266CC" href="https://twitter.com/JacobElkins413/lists/jacob-tech?ref_src=twsrc%5Etfw">A Twitter List by JacobElkins413</a> 
+                        <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                    </div>
+                    <div class="col-md-6"> 
+                            <a class="twitter-timeline" height="500px" width="400px" data-theme="dark" data-link-color="#9266CC" href="https://twitter.com/JacobElkins413/lists/general-news?ref_src=twsrc%5Etfw">A Twitter List by JacobElkins413</a> 
+                            <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
+                    </div>   
+	      		</div>
+              </section>
+              
+              <div class="gap"></div>
+
+			<div id="mapwrapper">
+				<div id="map"></div>
+			</div>
+
+            <section id="contact" class="white">
+                <div class="container">
+                	<div class="gap"></div>
+                    <div class="center gap fade-down section-heading">
+                        <h2 class="main-title">Get In Touch</h2>
+                        <hr>
+                        <p></p>
+                    </div>    
+                    <div class="gap"></div>
+                    <div class="row">
+                        <div class="col-md-4 fade-up">
+                            <h3>Contact Information</h3>
+                            <p><span class="icon icon-home"></span>Jacob Elkins<br/>
+                                <span class="icon icon-mobile"></span>+1 413 275 4940<br/>
+                                <span class="icon icon-envelop"></span> <a href="mailto:jacobelkins413@gmail.com">jacobelkins413@gmail.com</a> <br/>
+                                <span class="icon icon-twitter"></span> <a href="https://github.com/JacobElkins413" target="_blank">Github</a> <br/>
+                                <span class="icon icon-facebook"></span> <a href="https://www.linkedin.com/in/jacob-elkins" target="_blank">LinkedIn</a> <br/>
+                            </p>
+                        </div><!-- col -->
+                    
+                        <div class="col-md-8 fade-up">
+                            <h3>Send A Message</h3>
+                            <br>
+                            <br>
+                            <div id="message"></div>
+                            <form method="post" action="sendemail.php" id="contactform">
+                                <input type="text" name="name" id="name" placeholder="Name" />
+                                <input type="text" name="email" id="email" placeholder="Email" />
+                                <input type="text" name="website" id="website" placeholder="Website" />
+                                <textarea name="comments" id="comments" placeholder="Comments"></textarea>
+                                <input class="btn btn-outlined btn-primary" type="submit" name="submit" value="Submit" />
+                            </form>
+                        </div><!-- col -->
+                    </div><!-- row -->  
+                    <div class="gap"></div>         
+                </div>
+            </section>
+        </div>
+
+        <div id="footer-wrapper">
+                <section id="bottom" class="">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-3 col-sm-6 about-us-widget">
+                                <h4>Tech Quote's</h4>
+                                <p>Technology is nothing. What's important is that you have a faith in people, that they're basically good and smart, and if you give them tools, they'll do wonderful things with them <br><i>- Steve Jobs</i></p>
+                            </div><!--/.col-md-3-->
+        
+                            <div class="col-md-3 col-sm-6">
+                                <h4>Curry College</h4>
+                                <div>
+                                    <ul class="arrow">
+                                        <li><a href="https://www.curry.edu/" target="_blank">Curry College Website</a></li>
+                                        <li><a href="https://www.linkedin.com/in/jacob-elkins/" target="_blank">LinkedIn</a></li>
+                                        <li><a href="https://github.com/JacobElkins413" target="_blank">GitHub</a></li>
+                                        <li><a href="PDF/ElkinsResumePDF.pdf" target="_blank">Resume</a></li>
+                                    </ul>
+                                </div>
+                            </div><!--/.col-md-3-->
+        
+                            <div class="col-md-3 col-sm-6">
+                                <h4>Latest News</h4>
+                                <div>
+                                    <div class="media">
+                                        <div class="pull-left">
+                                            <img class="widget-img" src="images/Microsoft_Logo.png" alt="Microsoft">
+                                        </div>
+                                        <div class="media-body">
+                                            <span class="media-heading"><a href="https://www.theverge.com/microsoft">Microsoft News</a></span>
+                                            <small class="muted">Updated April 2018</small>
+                                        </div>
+                                    </div>
+                                    <div class="media">
+                                        <div class="pull-left">
+                                            <img class="widget-img" src="images/Apple_Logo.jpg" alt="">
+                                        </div>
+                                        <div class="media-body">
+                                            <span class="media-heading"><a href="https://www.theverge.com/apple">Apple News</a></span>
+                                            <small class="muted">Updated April 201*</small>
+                                        </div>
+                                    </div>
+                                </div>  
+                            </div><!--/.col-md-3-->
+        
+                            <div class="col-md-3 col-sm-6">
+                                <h4>Come See Us</h4>
+                                <address>
+                                    <strong>Curry College</strong><br>
+                                    1071 Blue Hill Ave,<br>
+                                    Milton, MA 02186<br>
+                            </div> <!--/.col-md-3-->
+                        </div>
+                    </div>
+                </section><!--/#bottom-->
+        
+                <footer id="footer" class="">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-sm-6">
+                                &copy; 2018 <a target="_blank" href="https://www.linkedin.com/in/jacob-elkins/" title="Premium Themes and Templates">Jacob Elkins</a>. All Rights Reserved.
+                            </div>
+                            <div class="col-sm-6">
+                                <ul class="pull-right">
+                                    <li><a id="gototop" class="gototop" href="#"><i class="fa fa-chevron-up"></i></a></li><!--#gototop-->
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </footer><!--/#footer-->
+            </div>
+
+
+    <script src="js/plugins.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.prettyPhoto.js"></script>   
+    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCWDPCiH080dNCTYC-uprmLOn2mt2BMSUk&amp;sensor=true"></script> 
+    <script src="js/init.js"></script>
+</body>
+</html>

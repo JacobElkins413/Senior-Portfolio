@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>About Me | Jacob Elkins Portfolio</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/pe-icons.css" rel="stylesheet">
+    <link href="css/prettyPhoto.css" rel="stylesheet">
+    <link href="css/animate.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <!--[if lt IE 9]>
+    <script src="js/html5shiv.js"></script>
+    <script src="js/respond.min.js"></script>
+    <![endif]-->       
+    <script src="js/jquery.js"></script>
+    <link rel="shortcut icon" href="images/ico/favicon.ico">
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="images/ico/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="images/ico/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="images/ico/images/ico/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon-precomposed" href="images/ico/apple-touch-icon-57x57.png">
+
+    <script type="text/javascript">
+    jQuery(document).ready(function($){
+    'use strict';
+        jQuery('body').backstretch([
+            "images/Stu_bg.jpeg",
+            "images/Rugby_bg.jpeg",
+            "images/TwinPeak_bg.jpeg"
+        ], {duration: 5000, fade: 500});
+
+        $("#mapwrapper").gMap({ controls: false,
+            scrollwheel: false,
+            markers: [{     
+                latitude:40.7566,
+                longitude: -73.9863,
+            icon: { image: "images/marker.png",
+                iconsize: [44,44],
+                iconanchor: [12,46],
+                infowindowanchor: [12, 0] } }],
+            icon: { 
+                image: "images/marker.png", 
+                iconsize: [26, 46],
+                iconanchor: [12, 46],
+                infowindowanchor: [12, 0] },
+            latitude:40.7566,
+            longitude: -73.9863,
+            zoom: 14 });
+    });
+    </script>
+</head><!--/head-->
+<body>
+<div id="preloader"></div>
+    <header class="navbar navbar-inverse navbar-fixed-top opaqued" role="banner">
+    <div id="search-wrapper">
+        <div class="container">
+            <input id="search-box" placeholder="Search">
+        </div>
+    </div>
+    </div>
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <i class="fa fa-bars"></i>
+                </button>
+                <a class="navbar-brand" href="index.html"><h1><span class="pe-7s-gleam bounce-in"></span> Jacob Elkins</h1></a>
+            </div>
+            <div class="collapse navbar-collapse">
+                <ul class="nav navbar-nav navbar-right">
+                        <li><a href="index.html">Home</a></li>
+                        <li class="active"><a href="about-me.html">About Me</a></li>
+                        <li><a href="experience.html">Experience</a></li>
+                        <li><a href="portfolio.html">Portfolio</a></li>
+                        <li><a href="contact.html">Contact</a></li> 
+                    <li><span class="search-trigger"><i class="fa fa-search"></i></span></li>
+                </ul>
+            </div>
+        </div>
+    </header><!--/header-->
+
+    <section id="single-page-slider" class="no-margin">
+        <div class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="item active">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="center gap fade-down section-heading">
+                                    <h2 class="main-title">About Me</h2>
+                                    <hr>
+                                    <p>Simple way to get to know who I am</p>
+                                </div>
+                            </div>   
+                        </div>
+                    </div>
+                </div><!--/.item-->
+            </div><!--/.carousel-inner-->
+        </div><!--/.carousel-->
+    </section><!--/#main-slider-->
+
+    <div id="content-wrapper">
+        <section id="about-us" class="white">
+            <div class="container">
+                    <p align="center"><a href="PDF/ElkinsResumePDF.pdf" target="_blank"><b><big>RESUME</big></b></a></p>
+                <div class="gap"></div>
+                <div class="row">
+                    <div class="col-md-12 fade-up">
+                        <p align="center">
+                            I am a senior at Curry College in Milton MA majoring in software development. I started my college career as a graphic
+                            design major and switched to software development sophmore year. With this type of expereince, 
+                            I want to persue front end developmet consentrating in web development and UX/UI development. 
+                            I am also the captian of the Curry College Men's rugby team and president of the Ski and Snowboard club. 
+                            I have completed the honors program at Curry and have been accepted into the Alexander Grahmn Bell Honor Society who only excepts
+                            the top 5% of the senior class. Upon graduation I look to persue a career in Boston and then search the west coast to further
+                            my expereince and open doors for new oppurtunity.
+                            </p>
+                            <br>
+                            
+                    </div>
+                    <div class="gap"></div>
+                    <div class="center gap fade-down section-heading"> 
+                        <h2 id="Fac" class="main-title">Elevator Speech</h2>
+                        <hr>
+                    </div>
+                    <div align="center">
+                            <audio controls>
+                                <source src="Elevator-Speech.mp3" type="audio/mpeg">
+                                Your browser does not support the audio element.
+                            </audio>
+                        </div> 
+                    <div class="gap"></div>
+                    <div class="col-md-12 fade-up">
+                            <p align="center">
+                                “Hi, I’m Jacob Elkins. I’m a Software Developer with a focus in front end development and UI/UX design. 
+                                I currently am a senior at Curry College. I have interned at two insurance companies as a software developer 
+                                and a mobile application researcher. I have various projects with a focus on front end, including a web 
+                                portfolio utilizing bootstrap and a team pairing web application. I am interested in pursuing a career as a 
+                                front end or web developer to enhance user experience throughout the tech industry.”  
+                            </p>
+                            <div class="gap"></div>
+                            <div class="gap"></div>
+                            <div class="gap"></div>
+                            <div class="gap"></div>
+                    </div>
+              
+                <div class="row fade-up">
+                    <div class="col-md-6">
+                        <div class="testimonial-list-item">
+                        <img class="pull-left img-responsive quote-author-list" src="images/Rugby_Ball.png">
+                            <blockquote>
+                                <p>Men's Rugby 2014 - 2018<br><i>Captian 2017 - 2018</i></p>
+                                <small>Curry College</small>
+                            </blockquote>
+                        </div>
+                        <div class="testimonial-list-item">
+                        <img class="pull-left img-responsive quote-author-list" src="images/Ski_Ride.png">
+                            <blockquote>
+                                <p>Ski and Snowboard Club 2014 - 2018 <br><i>President 2017 - 2018</i></p>
+                                <small>Curry College</small>
+                            </blockquote>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="testimonial-list-item">
+                        <img class="pull-left img-responsive quote-author-list" src="images/Tutor.png">
+                            <blockquote>
+                                <p>Peer Tutor 2017<br><i>Programming Logic</i></p>
+                                <small>Curry College</small>
+                            </blockquote>
+                        </div>
+                        <div class="testimonial-list-item">
+                        <img class="pull-left img-responsive quote-author-list" src="images/Intermurals.png">
+                            <blockquote>
+                                <p>Intermurals 2014 - 2018 <br><i>Soccer, Floor Hockey, Softball</i></p>
+                                <small>Curry College</small>
+                            </blockquote>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="gap"></div>
+                <div class="center gap fade-down section-heading"> 
+                    <h2 id="Fac" class="main-title">Meet The Facalty</h2>
+                    <hr>
+                    <p>Teaching is the one profession that creates all other professions</p>
+                </div> 
+                <div class="gap"></div>
+
+                <div id="meet-the-team" class="row">
+                    <div class="col-md-3 col-xs-6">
+                        <div class="center team-member">
+                            <img class="img-responsive img-thumbnail bounce-in" src="images/DocPic.png" alt="">
+                            <div class="team-content fade-up">
+                                <h5>Ronald Krawitz<small class="role muted">IT Professor</small></h5>
+                                <p>Programming aid and provided networking opportunities</p>
+                                <!-- <a class="btn btn-social btn-facebook" href="#"><i class="fa fa-facebook"></i></a> <a class="btn btn-social btn-google-plus" href="#"><i class="fa fa-google-plus"></i></a> <a class="btn btn-social btn-twitter" href="#"><i class="fa fa-twitter"></i></a> <a class="btn btn-social btn-linkedin" href="#"><i class="fa fa-linkedin"></i></a> -->
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3 col-xs-6">
+                        <div class="center team-member">
+                            <img class="img-responsive img-thumbnail bounce-in" src="images/Maryann.png" alt="">
+                            <div class="team-content fade-up">
+                                <h5>Maryann Gallant<small class="role muted">Advisor</small></h5>
+                                <p>Guided academic career to a successful future</p>
+                                <!-- <a class="btn btn-social btn-facebook" href="#"><i class="fa fa-facebook"></i></a> <a class="btn btn-social btn-google-plus" href="#"><i class="fa fa-google-plus"></i></a> <a class="btn btn-social btn-twitter" href="#"><i class="fa fa-twitter"></i></a> <a class="btn btn-social btn-linkedin" href="#"><i class="fa fa-linkedin"></i></a> -->
+                            </div>
+                        </div>
+                    </div>        
+                    <div class="col-md-3 col-xs-6">
+                        <div class="center team-member">
+                            <img class="img-responsive img-thumbnail bounce-in" src="images/Gordon.png" alt="" width="450px" height="450px">
+                            <div class="team-content fade-up">
+                                <h5>Deanna Gordon<small class="role muted">IT Professor</small></h5>
+                                <p>Provided real world exposer to the tech world</p>
+                                <!-- <a class="btn btn-social btn-facebook" href="#"><i class="fa fa-facebook"></i></a> <a class="btn btn-social btn-google-plus" href="#"><i class="fa fa-google-plus"></i></a> <a class="btn btn-social btn-twitter" href="#"><i class="fa fa-twitter"></i></a> <a class="btn btn-social btn-linkedin" href="#"><i class="fa fa-linkedin"></i></a> -->
+                            </div>
+                        </div>
+                    </div>        
+                    <div class="col-md-3 col-xs-6">
+                        <div class="center team-member">
+                            <img class="img-responsive img-thumbnail bounce-in" src="images/Praveen.png" alt="">
+                            <div class="team-content fade-up">
+                                <h5>Praveen Aravamudham<small class="role muted">IT Professor</small></h5>
+                                <p>Provided tools for real world experience</p>
+                                <!-- <a class="btn btn-social btn-facebook" href="#"><i class="fa fa-facebook"></i></a> <a class="btn btn-social btn-google-plus" href="#"><i class="fa fa-google-plus"></i></a> <a class="btn btn-social btn-twitter" href="#"><i class="fa fa-twitter"></i></a> <a class="btn btn-social btn-linkedin" href="#"><i class="fa fa-linkedin"></i></a> -->
+                            </div>
+                        </div>
+                    </div>
+                </div><!--/#meet-the-team-->
+                <div class="gap"></div>  
+                <div class="gap"></div>   
+            </div>      
+        </section>
+    </div>
+
+    <div id="footer-wrapper">
+        <section id="bottom" class="">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3 col-sm-6 about-us-widget">
+                        <h4>Tech Quote's</h4>
+                        <p>Technology is nothing. What's important is that you have a faith in people, that they're basically good and smart, and if you give them tools, they'll do wonderful things with them <br><i>- Steve Jobs</i></p>
+                    </div><!--/.col-md-3-->
+
+                    <div class="col-md-3 col-sm-6">
+                        <h4>Curry College</h4>
+                        <div>
+                            <ul class="arrow">
+                                <li><a href="https://www.curry.edu/" target="_blank">Curry College Website</a></li>
+                                <li><a href="https://www.linkedin.com/in/jacob-elkins/" target="_blank">LinkedIn</a></li>
+                                <li><a href="https://github.com/JacobElkins413" target="_blank">GitHub</a></li>
+                                <li><a href="PDF/ElkinsResumePDF.pdf" target="_blank">Resume</a></li>
+                            </ul>
+                        </div>
+                    </div><!--/.col-md-3-->
+
+                    <div class="col-md-3 col-sm-6">
+                                <h4>Latest News</h4>
+                                <div>
+                                    <div class="media">
+                                        <div class="pull-left">
+                                            <img class="widget-img" src="images/Microsoft_Logo.png" alt="Microsoft">
+                                        </div>
+                                        <div class="media-body">
+                                            <span class="media-heading"><a href="https://www.theverge.com/microsoft">Microsoft News</a></span>
+                                            <small class="muted">Updated April 2018</small>
+                                        </div>
+                                    </div>
+                                    <div class="media">
+                                        <div class="pull-left">
+                                            <img class="widget-img" src="images/Apple_Logo.jpg" alt="">
+                                        </div>
+                                        <div class="media-body">
+                                            <span class="media-heading"><a href="https://www.theverge.com/apple">Apple News</a></span>
+                                            <small class="muted">Updated April 201*</small>
+                                        </div>
+                                    </div>
+                                </div>  
+                            </div><!--/.col-md-3-->
+                    <div class="col-md-3 col-sm-6">
+                        <h4>Come See Us</h4>
+                        <address>
+                            <strong>Curry College</strong><br>
+                            1071 Blue Hill Ave,<br>
+                            Milton, MA 02186<br>
+                    </div> <!--/.col-md-3-->
+                </div>
+            </div>
+        </section><!--/#bottom-->
+
+        <footer id="footer" class="">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-6">
+                        &copy; 2018 <a target="_blank" href="https://www.linkedin.com/in/jacob-elkins/" title="Premium Themes and Templates">Jacob Elkins</a>. All Rights Reserved.
+                    </div>
+                    <div class="col-sm-6">
+                        <ul class="pull-right">
+                            <li><a id="gototop" class="gototop" href="#"><i class="fa fa-chevron-up"></i></a></li><!--#gototop-->
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </footer><!--/#footer-->
+    </div>
+
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.prettyPhoto.js"></script>
+    <script src="js/plugins.js"></script>
+    <script src="js/init.js"></script>
+</body>
+</html>
